@@ -9,7 +9,7 @@ public class SqArea {
     }
 
     public static void main(String[] args) {
-        double s = SqArea.square(6, 2);
+        double s = SqArea.square(30, 5);
         System.out.println("p = 6, k = 2, площадь прямоугольника = " + s);
     }
 }
