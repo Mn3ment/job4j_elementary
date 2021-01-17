@@ -10,7 +10,7 @@ public class MinDiapasonTest {
     public void whenFirstMin() {
         assertThat(
                 MinDiapason.findMin(
-                        new int[] {-1, 0, 5, 10},
+                        new int[] {-1, 2, 5, 0},
                         1, 3
                 ),
                 is(0)
