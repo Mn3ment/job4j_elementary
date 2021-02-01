@@ -10,7 +10,6 @@ public class Point {
         rsl = Math.sqrt(rsl);
         return rsl;
     }
-
     public static void main(String[] args) {
         double result = Point.distance(10, 5, 2, 20);
         System.out.println("result (10, 5) to (2, 20) " + result);
