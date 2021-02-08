@@ -5,8 +5,14 @@ public class Max {
         boolean max = left > right;
         return max ? left : right;
     }
-    public static void main(String[] args) {
-        int rsl = Max.max(154, 86);
-        System.out.println(rsl);
+
+    public static int max(int first, int second, int third) {
+        int rsl = max(first, max(second, third));
+        return rsl;
+    }
+
+    public static int max(int first, int second, int third, int forth) {
+        int rsl = max(max(first, second), max(third, forth));
+        return rsl;
     }
 }
